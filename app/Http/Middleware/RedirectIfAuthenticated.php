@@ -1,4 +1,12 @@
 <?php
+/*
+//////////////////////////////////////////////////////////////////////////
+// Criacao...........: 12/2021
+// Sistema...........: CMS
+// Desenvolvedores...: Denny Paulista Azevedo Filho
+// Copyright.........: Denny Paulista Azevedo Filho
+//////////////////////////////////////////////////////////////////////////
+*/
 
 namespace App\Http\Middleware;
 
@@ -19,7 +27,7 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
-            return redirect(RouteServiceProvider::HOME);
+            return redirect()->route('admin');
         }
 
         return $next($request);

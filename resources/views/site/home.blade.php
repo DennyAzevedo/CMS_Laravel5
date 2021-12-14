@@ -1,0 +1,12 @@
+<?php
+/*
+//////////////////////////////////////////////////////////////////////////
+// Criacao...........: 12/2021
+// Sistema...........: CMS
+// Desenvolvedores...: Denny Paulista Azevedo Filho
+// Copyright.........: Denny Paulista Azevedo Filho
+//////////////////////////////////////////////////////////////////////////
+*/
+$frase = 'PÁGINA INICIAL';
+Echo $frase;
+
