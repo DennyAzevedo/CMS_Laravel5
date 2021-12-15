@@ -3,7 +3,8 @@
 
 Projeto desenvolvido para treinamento.  
 Projetos do curso [B7Web](https://b7web.com.br/)  
-Desenvolvido em PHP 7.4 e Laravel 5.6
+Desenvolvido em PHP 7.4 e Laravel 5.6.  
+Utilizando _PHPStorm_ da [JetBrains](https://www.jetbrains.com/)  
 
 ### Curso de Laravel
 
