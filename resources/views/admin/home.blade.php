@@ -18,6 +18,3 @@
     ...
 @endsection
 
-@section('css')
-
-@endsection
